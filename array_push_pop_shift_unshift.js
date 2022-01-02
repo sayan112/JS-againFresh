@@ -2,7 +2,7 @@
 
 // array shift unshift 
 
-let fruits = ["apple", "mango", "grapes"];
+let fruits = [  "jbkjb",  "apple", "mango", "grapes"];
 console.log(fruits);
 // push 
 // fruits.push("banana");
@@ -11,6 +11,7 @@ console.log(fruits);
 // let poppedFruit = fruits.pop();
 // console.log(fruits);
 // console.log("popped fruits is", poppedFruit);
+
 
 
 //  remember that shift unshift operation is more heavier than push pop
