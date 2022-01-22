@@ -43,6 +43,16 @@
    }
 
     console.log(sayan.hobbies);
+    console.log(sayan.age);
+
+     const employId={
+        Full_Name : "Sayan Maitra",
+         Arrival_Time : "10 am",
+
+     }
+      console.log(employId.Full_Name);
+      console.log(employId.Arrival_Time);
+      
 
 
 
