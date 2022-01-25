@@ -1,2 +1,1 @@
-person["person"] = "male";
-// console.log(person);
+  let [user1,user2,user3]= persons;
