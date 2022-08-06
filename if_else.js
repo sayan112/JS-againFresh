@@ -36,3 +36,14 @@
 // }else{
 //     console.log("firstName is kinda empty");
 // }
+
+const need= 1 ; 
+ const no_need=2;
+  if(need)
+  {
+    console.log("hey its printed");
+  }
+  if(no_need)
+  {
+    console.log(`gandu${need}`);
+  }
