@@ -57,3 +57,20 @@
 // mySet1.add(5)           // Set [ 1, 5 ]
 // mySet1.add(5)           // Set [ 1, 5 ]
 
+
+
+//lets solve the problem :)
+
+var array1 = [1, 2, 3];
+var array2 = [2, 30, 1];
+ 
+const merge_array= array1.concat(array2);
+ const removedublicateset=new Set();
+  for (const elem of merge_array) {
+    removedublicateset.add(elem);
+    
+  }
+  
+    for (const elem of removedublicateset) {
+      console.log(elem);
+    }
