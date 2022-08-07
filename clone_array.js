@@ -29,22 +29,32 @@
 //  looks like we have to discuss again :) 
 //   come 
 
- let array = [ "sayan", " bisal "];
- let array2= array;
-  console.log(array);
-  console.log(array2);
+//  let array = [ "sayan", " bisal "];
+//  let array2= array;
+//   console.log(array);
+//   console.log(array2);
 
-//   spread operator 
-  let array3 = [...array];
-  console.log(array3);
+// //   spread operator 
+//   let array3 = [...array];
+//   console.log(array3);
 
-//   slice 
- let array4=array.slice(0);
+// //   slice 
+let array=[1,2,3,4,5]
+// it means we have to cut the array from 0 to 3 idx 
+
+ let array4=array.slice(0,3);
  console.log(array4);
 
 //   concat 
-let array5 = [].concat(array);
- console.log(array5);
+// let array5 = [].concat(array);
+//  console.log(array5);
 
+// how to concatinate 
+// let array1 = [1,2,3]
+// let array2= [1,2,3]
+// let newarr = array1.concat(array2);
+//  for (const elem of newarr) {
+//   console.log(elem);
+//  }
 
  
