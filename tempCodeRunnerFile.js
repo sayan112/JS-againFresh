@@ -1,11 +1,4 @@
-const addallnumbers=(...numbers)=> {
-//     let count =0;
-
-//     for (const iterator of numbers) {
-//         count+=iterator;
-//     }
-//      return count;
-
-// } 
-
-// console.log(addallnumbers(1, 2, 3, 4, 5, 6));
+ console.log(0=='');
+//   console.log(3===3);
+//    console.log(3==3);
+//      console.log(3=='3');// checks only value not data type 
