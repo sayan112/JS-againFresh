@@ -380,3 +380,149 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 // slice 10 countries fron countries Array
 
 
+
+
+
+
+// const newarr = [ 1,2,3,4,5,6];
+//  console.log(newarr.length);
+//  newarr.splice(3,3,7,8);
+//   console.log(newarr);
+//    console.log(newarr.length);
+
+// In the following shopping cart add, remove, edit items
+
+// const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+// add 'Meat' in the beginning of your shopping cart if it has not been already added
+// add Sugar at the end of you shopping cart if it has not been already added
+// remove 'Honey' if you are allergic to honey
+// modify Tea to 'Green Tea'
+
+const shoppingCart = [];
+ shoppingCart.push("Milk");
+  shoppingCart.push("Coffee");
+   shoppingCart.push("Tea");
+    shoppingCart.push("Honey");
+
+//      for (const elem of shoppingCart) {
+//        console.log(elem);
+//      }
+
+//      if(shoppingCart.indexOf("Meat")==-1)
+//      {
+// shoppingCart.unshift("Meat");
+// unshift means add 
+    //  }
+     
+     
+    //  for (const elem of shoppingCart) {
+    //    console.log(elem);
+    //  }
+
+
+    //   console.log("\n");
+     
+    //  if (shoppingCart.indexOf("Sugar") == -1) {
+    //    shoppingCart.push("sugar")
+    //    // unshift means add
+    //  }
+    //     for (const elem of shoppingCart) {
+    //       console.log(elem);
+    //     }
+
+      // i am alergic of honey 
+       
+//     const check =shoppingCart.indexOf("Honey");
+//     shoppingCart.splice(check,1);
+     
+//      console.log("\n");
+//         for (const elem of shoppingCart) {
+//           console.log(elem);
+//         }
+// //slice first 3 from array
+//      console.log("\n");
+
+//  shoppingCart.splice(0,3);
+//         for (const elem of shoppingCart) {
+//           console.log(elem);
+//         }
+
+
+
+    // #
+    // ##
+    // ###
+    // ####
+    // #####
+    // ######
+    // #######
+
+
+
+
+  
+    // for (let i = 0; i <7 ; i++) {
+    //   for (let j = 0; j < i+1; j++) {
+    //     console.log("#");
+    //   }
+    //   console.log("\n");
+      
+    // }
+
+
+    // Call your function sum, it takes any number of arguments and it returns the sum.
+
+
+  //    const allsum = (...arr)=>
+  //    {
+  //     let sum=0;
+  //     for (const iterator of arr) {
+         
+  //       sum+=iterator;      }
+  //        return sum;
+  //    }
+
+  //  let si=  allsum(1,2,2,3,4);
+  //     console.log(si);
+
+
+
+
+    //  const sum=()=>{
+    //  return   Math.floor( Math.random()*100);
+    //  }
+    //  console.log(sum()); 
+
+
+
+
+
+//Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
+
+//  const arr =[];
+
+//  const additem = (elem )=>{
+   
+//   arr.push(elem);
+
+//    return arr;
+//  }
+
+//    const newarr=  additem(1);
+
+//   for (const elem of newarr) {
+//      console.log(elem);
+    
+//   }
+
+    
+
+ const reverseArray=(...arr)=>{
+   
+  reverseArray(arr);
+   return arr;
+ }
+
+
+
+console.log(reverseArray([1, 2, 3, 4, 5]));
